@@ -223,5 +223,115 @@ footer a {
         padding: 7px;
     }
 }
+@media screen and (min-width: 1200px){
+    header {
+        text-align: left;
+        white-space: nowrap;
+        line-height: 60px;
+    }
+
+    header div {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40%;
+    }
+
+    header div img {
+        margin-bottom: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header p {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    nav {
+        display: inline-block;
+        vertical-align: middle;
+        width: 60%;
+        text-align: right;
+    }
+
+    header nav ul {
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    header nav li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: middle;
+    }
+
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header nav li a:hover {
+        color: red;
+    }
+
+    header nav li a::before {
+        content: "\22c6\0020";
+    }
+
+        article iframe {
+        display: inline-block;
+        width: 50%;
+        height: 315px;
+        vertical-align: top;
+        margin-right: 2%;
+    }
+
+    article section {
+        padding: 20px;
+        display: inline-block;
+        width: 47%;
+        height: 315px;
+        vertical-align: top;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    article section h2 {
+        background-color: #a3a3a3;
+        padding: 0.5em;
+        border-radius: 5px;
+    }
+
+    article section form {
+        margin-top: 1em;
+    }
+
+    article section fieldset {
+        border: none;
+        padding: 0;
+    }
+
+    article section input {
+        width: 70%;
+        display: inline-block;
+    }
+
+    article section button {
+        width: auto;
+        display: inline-block;
+        margin-left: 5px;
+    }
+        aside div {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        box-sizing: border-box;
+    }
+}
+
 
 
